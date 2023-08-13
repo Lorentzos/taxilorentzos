@@ -1,14 +1,17 @@
 
-<html lang="en">  
+<html lang="en">
+  
     <head>
         <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel=stylesheet href="css/css/style.css" type=text/css>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="img/logoTransparent.png" type="img/logoTransparent.png">
 <link rel="shortcut icon" href="img/logoTransparent.png" type="img/logoTransparent.png">
     </head>
+
+            
     
     <style>
         /* Global styles */
@@ -77,6 +80,9 @@
                     <img src="img/download.jpg" alt="Logo" width="140" height="auto" draggable="false">
                 </div>
                 
+                
+                
+                
                     <button style="border: none; font-size: 24px; padding: 10px 20px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -116,81 +122,223 @@
               </nav>
             
         </header>
-        
-        
+
+  <section class="gallery" style="margin-top: 30px;">
+
+
+    <div class="galerie">
+      <div class="item">
+        <a href="img/image1.png" class="modal-link">
+        <img src="img/image1.png" alt="vue de la terre depuis l'espace">
+        </a>
+      </div>
+      <div class="item">
+        <a href="img/image2.png" class="modal-link">
+        <img src="img/image2.png" alt="paysage montagneux sous un ciel étoilé et de teinte légèrement mauve">
+        </a>
+      </div>
+      <div class="item">
+        <a href="img/image3.png" class="modal-link">
+        <img src="img/image3.png" alt="vue de la terre depuis l'espace">
+        </a>
+      </div>
+      <div class="item">
+        <a href="img/image4.png" class="modal-link">
+        <img src="img/image4.png" alt="vue de l'univers de manière illustrative">
+        </a>
+      </div>
+      <div class="item">
+        <a href="img/image5.png" class="modal-link">
+        <img src="img/image5.png" alt="ombre d'une personne se tenant debout dans la pénombre sous un ciel étoilé">
+        </a>
+      </div>
+      <div class="item">
+        <a href="img/image6.png" class="modal-link">
+        <img src="img/image6.png" alt="vue de la terre depuis l'espace, la nuit">
+        </a>
+      </div>
+      
+    </div>
     
-            <body>
-                <div class="full-gallery" style="align-items: center; margin-top: 100px;">
-                    <div class="image-gallery">
-                        <div class="gallery-items">
-                            <div class="item">
-                                <img src="img/image6.png" />
-                                <div class="item-title">
-                                    <div class="transparent-back"></div>
-                                 
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+
+  </section><br><br><br><br><br>
+<style>
+  *, ::before, ::after{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+
+
+h1{
+  color: #F1F1F1;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+.galerie {
+  width: 80%;
+  max-width: 1300px;
+  margin: 70px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.item img{
+  width: 100%;
+  height: auto;
+}
+
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+.modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 1200px;
+    }
+.close {
+      color: #f1f1f1;
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+ .close:hover,
+    .close:focus {
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+    }
+</style>
+
+<script>
+  var modal = document.getElementById("modal");
+    var closeButton = document.getElementsByClassName("close")[0];
+
+    var links = document.getElementsByClassName("modal-link");
+    var modalImage = document.getElementById("modal-image");
+
+    function openModal(imageSrc) {
+      modal.style.display = "block";
+      modalImage.src = imageSrc;
+    }
+
+    function closeModal() {
+      modal.style.display = "none";
+    }
+
+    Array.from(links).forEach(function(link) {
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        openModal(this.href);
+      });
+    });
+
+    closeButton.addEventListener("click", closeModal);
+
+    window.addEventListener("click", function(event) {
+      if (event.target == modal) {
+        closeModal();
+      }
+    });
+</script>
+
+
+
+
+
+                <section class="footer-section">
+                  <div class="container">
+                      <div class="row">
+                        
+                          <div class="col-lg-2 col-md-3 col-sm-6">
+                              <div class="fs-widget">
+                                  <h4  style="font-size: 17px;">USEFUL LINKS</h4>
+                                  <ul>
+                                      <li><a href="home.html">HOME</a></li>
+                                      <li><a href="aboutus.html">ABOUT US</a></li>
+                                      <li><a href="services.html">SERVICES</a></li>
+                                      <li><a href="gallery.html">GALLERY</a></li>
+                                      
+                              </div>
+                          </div>
+                
+                          <div class="col-lg-4">
+                            <div class="fs-about">
+                                <div class="fa-logo">
+                             <h3>TAXI LORENTZOS</h3>
+                
                                 </div>
+                                <p style="font-size: 12px;">
+                                  <strong>All these years we have demonstrated a high level of professionalism, taking special care of the safe and comfortable movement of every passenger. Our experience in the field, combined with our economical prices and the right personal service, have established us as the ideal choice for your move to Thassos.
+                                  </strong>
+                                </p>
+                          
                             </div>
                         </div>
-                        <div class="gallery-items">
-                            <div class="item">
-                                <img src="img/image2.png" />
-                                <div class="item-title">
-                                    <div class="transparent-back"></div>
-                                  
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-items">
-                            <div class="item">
-                                <img src="img/image3.png" />
-                                <div class="item-title">
-                                    <div class="transparent-back"></div>
-                                  
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-items">
-                            <div class="item">
-                                <img src="img/image4.png" />
-                                <div class="item-title">
-                                    <div class="transparent-back"></div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-items">
-                            <div class="item">
-                                <img src="img/image5.png" />
-                                <div class="item-title">
-                                    <div class="transparent-back"></div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="gallery-items">
-                            <div class="item">
-                                <img src="img/image2.png" />
-                                <div class="item-title">
-                                    <div class="transparent-back"></div>
-                                   
-                                </div>
-                            </div>
-                        </div>
-
-                      
-
-
-                    </div>
-       
-
-
-
-
-
-
-
-
-
+                
+                
+                          
+                          <div class="col-lg-2 col-md-3 col-sm-6">
+                              <div class="fs-widget">
+                                  <h4  style="font-size: 18px;">Support</h4>
+                                  <ul>
+                                      <li><a href="contactus.html">Contact</a></li>
+                                      <a href="tel:+30 6972605601">call : +30 6972605601</a>
+                                      <br>
+                                      <a href="tel:+30 6945027609">call : +30 6945027609</a>
+                                  </ul>
+                              </div>
+                          </div>
+                          
+                          
+                      </div>
+                
+                      <style></style>
+                      <div class="row">
+                          <div class="col-lg-12 text-center">
+                              <div class="copyright-text">
+                                <p>&nbsp;</p>
+                        
+                                <hr />
+                                <p>&nbsp;</p>
+                                <p>
+                                <strong> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</strong> 
+                                  <span class="space-between-sentences"></span>
+                                </p>
+                                      
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </section>
 
 
 
