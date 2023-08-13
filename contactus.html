@@ -1,377 +1,135 @@
-
 <html>
-    <head>
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel=stylesheet href="css/css/style.css" type=text/css>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="img/logoTransparent.png" type="img/logoTransparent.png">
+<head>
+<title>taxithassoslimenariapotos</title>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel=stylesheet href="css/css/style.css" type=text/css>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="img/logoTransparent.png" type="img/logoTransparent.png">
 <link rel="shortcut icon" href="img/logoTransparent.png" type="img/logoTransparent.png">
-    </head>
-    
-    <style>
-        /* Global styles */
-
-      
-      
-      
-      
-      
-      h1,h2,h3,h4,h5,h6,p,a{
-        text-decoration: none;
-      }
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      button {
-        background-color: #33333300;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease-in-out;
-      }
-      
-      button:hover {
-        background-color: #55555500;
-      }
-      
-      
-      .buttoncall {
-        background-color: #ebebeb;
-        color: #da5102de;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease-in-out;
-      }
-      
-      
-      </style>
-    
-
-    
-    
-    <body>
-        <div class="spinner-container">
-            <div class="spinner-border" role="status">
-              <span class="visually-hidden"></span>
-            </div>
-          </div>
-          <div class="dark-overlay"></div>
-
-          <header>
-            <nav class="navbar bg-body-tertiary fixed-top">
-                <div class="container-fluid">
-                  <div class="logocenter" style="display: flex; align-items: center;">
-                    <img src="img/logoTransparent.png" alt="Logo" width="140" height="auto" draggable="false">
-                    <img src="img/download.jpg" alt="Logo" width="140" height="auto" draggable="false">
-                </div>
-                
-                    <button style="border: none; font-size: 24px; padding: 10px 20px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <div class="logocenter" style="display: flex; align-items: center;">
-                        <img src="img/logoTransparent.png" alt="Logo" width="140" height="auto" draggable="false">
-                        <img src="img/download.jpg" alt="Logo" width="140" height="auto" draggable="false">
-                    </div>
-                    
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="aboutus.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="location.html">Location</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="contactus.html">Contact Us</a>
-                          </li>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            
-        </header>
-        <style>
-          /* Your existing CSS styles here */
-          /* ... */
-  
-          /* Additional CSS for the Contact Us page */
-          .contact {
-              background-color: #f9f9f900;
-              padding: 80px 0;
-              text-align: center;
-          }
-  
-          .contact-form {
-              max-width: 600px;
-              margin: 0 auto;
-              padding: 30px;
-              background-color: #fff;
-              box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-          }
-  
-          .contact-form h2 {
-              font-size: 28px;
-              margin-bottom: 20px;
-          }
-  
-          .contact-form input[type="text"],
-          .contact-form input[type="email"],
-          .contact-form textarea {
-              width: 100%;
-              padding: 10px;
-              margin-bottom: 15px;
-              border: 1px solid #ccc;
-              border-radius: 4px;
-              font-size: 16px;
-          }
-  
-          .contact-form textarea {
-              resize: vertical;
-          }
-  
-          .contact-form button {
-              display: block;
-              width: 100%;
-              padding: 10px;
-              background-color: #ff7043;
-              color: #fff;
-              border: none;
-              border-radius: 4px;
-              font-size: 18px;
-              cursor: pointer;
-              transition: background-color 0.3s ease;
-          }
-  
-          .contact-form button:hover {
-              background-color: #ff5722;
-          }
-      </style>
-        
-        <section class="contact" style="margin-top: 100px;">
-              <div class="contact-form">
-                <div class="content">
-                  <h2>Contact Information</h2>
-                  <form id="contactForm">
-                      <input type="text" name="name" placeholder="Your Name" required>
-                      <input type="email" name="email" placeholder="Your Email" required>
-                      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                      <button type="submit">Send Message</button>
-                  </form>
-              </div>
-          </div>
-      </section><br><br><br><br><br>
-      <script>
-        // JavaScript to send form data to Discord webhook
-        const form = document.getElementById('contactForm');
-        form.addEventListener('submit', async (event) => {
-            event.preventDefault();
-            
-            const formData = new FormData(form);
-            const payload = {};
-            formData.forEach((value, key) => {
-                payload[key] = value;
-            });
-
-            const webhookUrl = 'https://discord.com/api/webhooks/1140210246820835388/2I3aF7q-sPbU7sPJa6C4mn6eAtNcLn10w3vm3jdmDqNe3aSQ0T6x2bgSps7HiRBkh8o4';
-            const response = await fetch(webhookUrl, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ content: `New contact form submission:\nName: ${payload.name}\nEmail: ${payload.email}\nMessage: ${payload.message}` })
-            });
-
-            if (response.ok) {
-                alert('Message sent successfully!');
-            } else {
-                alert('Error sending message. Please try again later.');
-            }
-        });
-    </script>
-               <!--end header-->
-
-          
-               <!--end home-->
-               <style>
-                /* Base styles for the footer */
-                .footer-section {
-                  padding: 20px 0;
-                  text-align: center;
-                }
-            
-                .fs-about {
-                  margin-bottom: 20px;
-                }
-            
-                .fa-logo img {
-                  max-width: 100%;
-                  height: auto;
-                }
-            
-                .fs-widget {
-                  margin-bottom: 20px;
-                }
-            
-                .fs-widget ul {
-                  list-style: none;
-                  padding: 0;
-                  margin: 0;
-                }
-            
-                .fs-widget ul li {
-                  margin-bottom: 8px;
-                }
-            
-                .leave-comment {
-                  margin-top: 20px;
-                }
-            
-                #emailInput {
-                  width: 100%;
-                  margin-bottom: 10px;
-                  padding: 8px;
-                  border: 1px solid #ccc;
-                  border-radius: 4px;
-                }
-            
-                #SubscribeEmail {
-                  background-color: #4CAF50;
-                  color: white;
-                  border: none;
-                  padding: 8px 16px;
-                  border-radius: 4px;
-                  cursor: pointer;
-                }
-            
-                /* Mobile Responsive Styles */
-                @media (max-width: 767px) {
-                  .row {
-                    flex-direction: column;
-                  }
-            
-                  .col-lg-4, .col-md-3, .col-sm-6 {
-                    width: 100%;
-                    margin-bottom: 20px;
-                  }
-            
-                  .col-lg-4 {
-                    text-align: center;
-                  }
-                }
-            
-                @media (max-width: 480px) {
-                  .fa-logo {
-                    display: flex;
-                    justify-content: center;
-                  }
-            
-                  .fa-logo img {
-                    max-width: 120px;
-                  }
-                }
-              </style>
+</head>
+<style>h1,h2,h3,h4,h5,h6,p,a{text-decoration:none}button{background-color:#33333300;color:#fff;padding:10px 20px;border:0;border-radius:5px;cursor:pointer;transition:background-color .3s ease-in-out}button:hover{background-color:#55555500}.buttoncall{background-color:#ebebeb;color:#da5102de;padding:10px 20px;border:0;border-radius:5px;cursor:pointer;transition:background-color .3s ease-in-out}</style>
+<body>
+<div class="spinner-container">
+<div class="spinner-border" role="status">
+<span class="visually-hidden"></span>
+</div>
+</div>
+<div class="dark-overlay"></div>
+<header>
+<nav class="navbar bg-body-tertiary fixed-top">
+<div class="container-fluid">
+<div class="logocenter" style="display:flex;align-items:center">
+<img src="img/logoTransparent.png" alt="Logo" width="140" height="auto" draggable="false">
+<img src="img/download.jpg" alt="Logo" width="140" height="auto" draggable="false">
+</div>
+<button style="border:0;font-size:24px;padding:10px 20px" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+<div class="offcanvas-header">
+<div class="logocenter" style="display:flex;align-items:center">
+<img src="img/logoTransparent.png" alt="Logo" width="140" height="auto" draggable="false">
+<img src="img/download.jpg" alt="Logo" width="140" height="auto" draggable="false">
+</div>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="home.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="aboutus.html">About Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="services.html">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="location.html">Location</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="gallery.html">Gallery</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contactus.html">Contact Us</a>
+</li>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<style>.contact{background-color:#f9f9f900;padding:80px 0;text-align:center}.contact-form{max-width:600px;margin:0 auto;padding:30px;background-color:#fff;box-shadow:0 0 10px rgba(0,0,0,0.1)}.contact-form h2{font-size:28px;margin-bottom:20px}.contact-form input[type="text"],.contact-form input[type="email"],.contact-form textarea{width:100%;padding:10px;margin-bottom:15px;border:1px solid #ccc;border-radius:4px;font-size:16px}.contact-form textarea{resize:vertical}.contact-form button{display:block;width:100%;padding:10px;background-color:#ff7043;color:#fff;border:0;border-radius:4px;font-size:18px;cursor:pointer;transition:background-color .3s ease}.contact-form button:hover{background-color:#ff5722}</style>
+<section class="contact" style="margin-top:100px">
+<div class="contact-form">
+<div class="content">
+<h2>Contact Information</h2>
+<form id="contactForm">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</div>
+</div>
+</section><br><br><br><br><br>
+<script>const _0x598ec0=_0x11cc;(function(_0xb3d695,_0x30840f){const _0x5d12d2=_0x11cc,_0x2b774d=_0xb3d695();while(!![]){try{const _0x22045f=-parseInt(_0x5d12d2(0x16f))/0x1*(-parseInt(_0x5d12d2(0x177))/0x2)+-parseInt(_0x5d12d2(0x164))/0x3*(parseInt(_0x5d12d2(0x165))/0x4)+-parseInt(_0x5d12d2(0x167))/0x5+parseInt(_0x5d12d2(0x173))/0x6+-parseInt(_0x5d12d2(0x175))/0x7*(-parseInt(_0x5d12d2(0x169))/0x8)+parseInt(_0x5d12d2(0x16a))/0x9+-parseInt(_0x5d12d2(0x176))/0xa*(parseInt(_0x5d12d2(0x16d))/0xb);if(_0x22045f===_0x30840f)break;else _0x2b774d['push'](_0x2b774d['shift']());}catch(_0x20b9b7){_0x2b774d['push'](_0x2b774d['shift']());}}}(_0x1363,0xd6ab0));const form=document[_0x598ec0(0x16e)](_0x598ec0(0x16b));form['addEventListener'](_0x598ec0(0x168),async _0x3aea00=>{const _0xa1cf02=_0x598ec0;_0x3aea00[_0xa1cf02(0x160)]();const _0x596b61=new FormData(form),_0x61709f={};_0x596b61['forEach']((_0x45c34c,_0x331b8d)=>{_0x61709f[_0x331b8d]=_0x45c34c;});const _0x3b87b5=_0xa1cf02(0x172),_0x4f8c38=await fetch(_0x3b87b5,{'method':_0xa1cf02(0x170),'headers':{'Content-Type':_0xa1cf02(0x161)},'body':JSON[_0xa1cf02(0x15f)]({'content':_0xa1cf02(0x178)+_0x61709f[_0xa1cf02(0x166)]+_0xa1cf02(0x171)+_0x61709f[_0xa1cf02(0x15e)]+_0xa1cf02(0x163)+_0x61709f[_0xa1cf02(0x174)]})});_0x4f8c38['ok']?alert(_0xa1cf02(0x16c)):alert(_0xa1cf02(0x162));});function _0x11cc(_0x144c4b,_0x111ca2){const _0x1363f9=_0x1363();return _0x11cc=function(_0x11cc64,_0x3e7a0f){_0x11cc64=_0x11cc64-0x15e;let _0x42ee38=_0x1363f9[_0x11cc64];return _0x42ee38;},_0x11cc(_0x144c4b,_0x111ca2);}function _0x1363(){const _0x5787d5=['\x0aEmail:\x20','https://discord.com/api/webhooks/1140210246820835388/2I3aF7q-sPbU7sPJa6C4mn6eAtNcLn10w3vm3jdmDqNe3aSQ0T6x2bgSps7HiRBkh8o4','5789268xwnctQ','message','14ZSSJLF','3762650jgVzSH','2031496LnRnSH','New\x20contact\x20form\x20submission:\x0aName:\x20','email','stringify','preventDefault','application/json','Error\x20sending\x20message.\x20Please\x20try\x20again\x20later.','\x0aMessage:\x20','47322nyJXWF','440rYRfYw','name','5867675QqLiqi','submit','6016440mcezKv','12888126DuAmPW','contactForm','Message\x20sent\x20successfully!','33OpGorE','getElementById','1oSWAZV','POST'];_0x1363=function(){return _0x5787d5;};return _0x1363();}</script>
+<style>.footer-section{padding:20px 0;text-align:center}.fs-about{margin-bottom:20px}.fa-logo img{max-width:100%;height:auto}.fs-widget{margin-bottom:20px}.fs-widget ul{list-style:none;padding:0;margin:0}.fs-widget ul li{margin-bottom:8px}.leave-comment{margin-top:20px}#emailInput{width:100%;margin-bottom:10px;padding:8px;border:1px solid #ccc;border-radius:4px}#SubscribeEmail{background-color:#4caf50;color:white;border:0;padding:8px 16px;border-radius:4px;cursor:pointer}@media(max-width:767px){.row{flex-direction:column}.col-lg-4,.col-md-3,.col-sm-6{width:100%;margin-bottom:20px}.col-lg-4{text-align:center}}@media(max-width:480px){.fa-logo{display:flex;justify-content:center}.fa-logo img{max-width:120px}}</style>
 <section class="footer-section">
-  <div class="container">
-      <div class="row">
-        
-          <div class="col-lg-2 col-md-3 col-sm-6">
-              <div class="fs-widget">
-                  <h4  style="font-size: 17px;">USEFUL LINKS</h4>
-                  <ul>
-                      <li><a href="home.html">HOME</a></li>
-                      <li><a href="aboutus.html">ABOUT US</a></li>
-                      <li><a href="services.html">SERVICES</a></li>
-                      <li><a href="gallery.html">GALLERY</a></li>
-                      
-              </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="fs-about">
-                <div class="fa-logo">
-             <h3>TAXI LORENTZOS</h3>
-
-                </div>
-                <p style="font-size: 12px;">
-                  <strong>All these years we have demonstrated a high level of professionalism, taking special care of the safe and comfortable movement of every passenger. Our experience in the field, combined with our economical prices and the right personal service, have established us as the ideal choice for your move to Thassos.
-                  </strong>
-                </p>
-          
-            </div>
-        </div>
-
-
-          
-          <div class="col-lg-2 col-md-3 col-sm-6">
-              <div class="fs-widget">
-                  <h4  style="font-size: 18px;">Support</h4>
-                  <ul>
-                      <li><a href="contactus.html">Contact</a></li>
-                      <a href="tel:+30 6972605601">call : +30 6972605601</a>
-                      <br>
-                      <a href="tel:+30 6945027609">call : +30 6945027609</a>
-                  </ul>
-              </div>
-          </div>
-          
-          
-      </div>
-
-      <style></style>
-      <div class="row">
-          <div class="col-lg-12 text-center">
-              <div class="copyright-text">
-                <p>&nbsp;</p>
-        
-                <hr />
-                <p>&nbsp;</p>
-                <p>
-                <strong> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</strong> 
-                  <span class="space-between-sentences"></span>
-                </p>
-                      
-              </div>
-          </div>
-      </div>
-  </div>
+<div class="container">
+<div class="row">
+<div class="col-lg-2 col-md-3 col-sm-6">
+<div class="fs-widget">
+<h4 style="font-size:17px">USEFUL LINKS</h4>
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="aboutus.html">ABOUT US</a></li>
+<li><a href="services.html">SERVICES</a></li>
+<li><a href="gallery.html">GALLERY</a></li>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="fs-about">
+<div class="fa-logo">
+<h3>TAXI LORENTZOS</h3>
+</div>
+<p style="font-size:12px">
+<strong>All these years we have demonstrated a high level of professionalism, taking special care of the safe and comfortable movement of every passenger. Our experience in the field, combined with our economical prices and the right personal service, have established us as the ideal choice for your move to Thassos.
+</strong>
+</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-3 col-sm-6">
+<div class="fs-widget">
+<h4 style="font-size:18px">Support</h4>
+<ul>
+<li><a href="contactus.html">Contact</a></li>
+<a href="tel:+30 6972605601">call : +30 6972605601</a>
+<br>
+<a href="tel:+30 6945027609">call : +30 6945027609</a>
+</ul>
+</div>
+</div>
+</div>
+<style></style>
+<div class="row">
+<div class="col-lg-12 text-center">
+<div class="copyright-text">
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<p>
+<strong> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</strong>
+<span class="space-between-sentences"></span>
+</p>
+</div>
+</div>
+</div>
+</div>
 </section>
-    </body>
+</body>
 </html>
-
 <script src="js/script.js"></script>
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
