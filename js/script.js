@@ -1,3 +1,5 @@
+// Lorentzos Encrypt
+
 var _0x5d6a5e = _0x1751;
 (function(_0xb199e2, _0x267923) {
     var _0x5cc5e1 = _0x1751
