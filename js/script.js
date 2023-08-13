@@ -1,4 +1,8 @@
-// Lorentzos Encrypt
+/*!
+  * Coded by Lorentzos
+  * Encrypted in LorentzosEncryptor
+  * Licensed under MIT (https://lorentzos.servers) -- private accses
+  */
 
 var _0x5d6a5e = _0x1751;
 (function(_0xb199e2, _0x267923) {
