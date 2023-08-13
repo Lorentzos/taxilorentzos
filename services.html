@@ -1,501 +1,177 @@
-
 <html>
-    <head>
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel=stylesheet href="css/css/style.css" type=text/css>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="img/logoTransparent.png" type="img/logoTransparent.png">
+<head>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel=stylesheet href="css/css/style.css" type=text/css>
+<title>taxithassoslimenariapotos</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="img/logoTransparent.png" type="img/logoTransparent.png">
 <link rel="shortcut icon" href="img/logoTransparent.png" type="img/logoTransparent.png">
-    </head>
-    
-    <style>
-        /* Global styles */
-
-
-      
-      
-      
-      h1,h2,h3,h4,h5,h6,p,a{
-        text-decoration: none;
-      }
-      
-      
-      
-  
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      button {
-        background-color: #33333300;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease-in-out;
-      }
-      
-      button:hover {
-        background-color: #55555500;
-      }
-      
-      
-      
-      
-      
-      </style>
-    
-
-    
-    
-    <body>
-        <div class="spinner-container">
-            <div class="spinner-border" role="status">
-              <span class="visually-hidden"></span>
-            </div>
-          </div>
-          <div class="dark-overlay"></div>
-
-          <header>
-            <nav class="navbar bg-body-tertiary fixed-top">
-                <div class="container-fluid">
-                  <div class="logocenter" style="display: flex; align-items: center;">
-                    <img src="img/logoTransparent.png" alt="Logo" width="140" height="auto" draggable="false">
-                    <img src="img/download.jpg" alt="Logo" width="140" height="auto" draggable="false">
-                </div>
-                
-                    <button style="border: none; font-size: 24px; padding: 10px 20px;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <div class="logocenter" style="display: flex; align-items: center;">
-                        <img src="img/logoTransparent.png" alt="Logo" width="140" height="auto" draggable="false">
-                        <img src="img/download.jpg" alt="Logo" width="140" height="auto" draggable="false">
-                    </div>
-                    
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="aboutus.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="location.html">Location</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="contactus.html">Contact Us</a>
-                          </li>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-            
-        </header>
-        
-
-<style>
-  /* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Add your existing global styles here */
-
-/* Media query for screens smaller than 768px (typical tablet and mobile sizes) */
-@media (max-width: 768px) {
-    /* Adjust header styles */
-    .navbar {
-        flex-direction: column;
-    }
-
-    .logocenter {
-        justify-content: center;
-        text-align: center;
-    }
-
-    /* Adjust button styles */
-    button {
-        font-size: 18px;
-    }
-
-    /* Adjust offcanvas styles */
-    .offcanvas-header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    /* Adjust main content styles */
-    .container {
-        margin-top: 70px; /* Add some top margin to content */
-    }
-
-    /* Adjust footer styles */
-    .fs-widget {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    /* Additional adjustments can be made based on your specific needs */
-}
-
-</style>
-<main id="more" style="margin-top: 100px;">
-  <article class="container" id="more-content">
-    <div class="row">
-      <div class="col-md-7">
-        <h2 class="section-title">SERVICES</h2>
-        <h1 class="taxi-title">TAXI No 4 THASSOS | Taxi Services Thassos</h1>
-        <img src="https://reseller-content.4ty.gr/site2/chris-ftp/artandpaint/sxoli-gianitsa1.jpg" alt="Taxi Services" class="taxi-image" draggable="false">
-        <br>
-        <p class="description">With our modern and comfortable taxis, we can transport you quickly, efficiently, and comfortably to any destination in Thassos you desire. Our business, "TAXI No 4 THASSOS", located in Thassos, specifically in the areas of Limenaria and Potos, has been operating for several years in the field of taxi transportation, always valuing professional and high-quality passenger transportation services. Our taxis are well-maintained and equipped with the latest technology to provide you with a pleasant and hassle-free transfer throughout Thassos. Our drivers are ready to take any route you indicate.</p>
-      </div>
-
-      <div class="col-md-5">
-        <img src="https://reseller-content.4ty.gr/site2/chris-ftp/taxithassos/taxisrvice25.jpg" alt="Taxi" class="taxi-image" draggable="false">
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="contact-section">
-      <img src="https://reseller-content.4ty.gr/site2/chris-ftp/taxithassos/taxisrvice7.jpg" alt="24/7 Service" class="contact-icon" draggable="false">
-      <p class="availability">We are available 24/7</p>
-      <p class="phone-numbers">Phone: +306945027609, +306972605601</p>
-    </div>
-
-    <hr>
-
-    <div class="services-section">
-      <div class="service-column">
-        <h3 class="service-title">WE PROVIDE:</h3>
-        <ul class="service-list">
-          <li>Tourist transfers</li>
-          <li>Student transfers</li>
-          <li>Transfers for people with disabilities</li>
-          <li>Transfers for the elderly</li>
-          <li>Medical patient transfers</li>
-          <li>Pet transportation</li>
-          <li>Transport of unaccompanied parcels</li>
-        </ul>
-      </div>
-      <div class="service-column">
-        <h3 class="service-title">WE TRANSPORT YOU TO:</h3>
-        <ul class="service-list">
-          <li>Harbors</li>
-          <li>Bus stations</li>
-          <li>Hotels</li>
-          <li>Restaurants</li>
-          <li>Tourist attractions</li>
-          <li>Island tours</li>
-          <li>Night outings</li>
-        </ul>
-      </div>
-      <div class="service-column">
-        <p class="day-trips">We also organize day trips so you don't miss any of the natural beauties of our region. Just tell us the time you want to spend and your interests, and simply enjoy the journey. Wherever you are, wherever you want to go, just contact us at +306997291088, +306972605601, or +306945406006, and we will be right there to serve you.</p>
-      </div>
-    </div>
-
-    <hr>
-
-    <p class="testimonial">Throughout these years, we have demonstrated high professionalism, particularly ensuring the safe and comfortable transportation of every passenger. Our experience in the field, combined with our affordable prices and excellent customer service, have established us as the ideal choice for your transportation needs in Thassos.</p>
-
-  </article>
+</head>
+<style>h1,h2,h3,h4,h5,h6,p,a{text-decoration:none}button{background-color:#33333300;color:#fff;padding:10px 20px;border:0;border-radius:5px;cursor:pointer;transition:background-color .3s ease-in-out}button:hover{background-color:#55555500}</style>
+<body>
+<div class="spinner-container">
+<div class="spinner-border" role="status">
+<span class="visually-hidden"></span>
+</div>
+</div>
+<div class="dark-overlay"></div>
+<header>
+<nav class="navbar bg-body-tertiary fixed-top">
+<div class="container-fluid">
+<div class="logocenter" style="display:flex;align-items:center">
+<img src="img/logoTransparent.png" alt="Logo" width="140" height="auto" draggable="false">
+<img src="img/download.jpg" alt="Logo" width="140" height="auto" draggable="false">
+</div>
+<button style="border:0;font-size:24px;padding:10px 20px" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+<div class="offcanvas-header">
+<div class="logocenter" style="display:flex;align-items:center">
+<img src="img/logoTransparent.png" alt="Logo" width="140" height="auto" draggable="false">
+<img src="img/download.jpg" alt="Logo" width="140" height="auto" draggable="false">
+</div>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+<li class="nav-item">
+<a class="nav-link active" aria-current="page" href="home.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="aboutus.html">About Us</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="services.html">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="location.html">Location</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="gallery.html">Gallery</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contactus.html">Contact Us</a>
+</li>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<style>body{font-family:Arial,sans-serif;margin:0;padding:0}@media(max-width:768px){.navbar{flex-direction:column}.logocenter{justify-content:center;text-align:center}button{font-size:18px}.offcanvas-header{flex-direction:column;align-items:center}.container{margin-top:70px}.fs-widget{text-align:center;margin-bottom:30px}}</style>
+<main id="more" style="margin-top:100px">
+<article class="container" id="more-content">
+<div class="row">
+<div class="col-md-7">
+<h2 class="section-title">SERVICES</h2>
+<h1 class="taxi-title">TAXI No 4 THASSOS | Taxi Services Thassos</h1>
+<img src="https://reseller-content.4ty.gr/site2/chris-ftp/artandpaint/sxoli-gianitsa1.jpg" alt="Taxi Services" class="taxi-image" draggable="false">
+<br>
+<p class="description">With our modern and comfortable taxis, we can transport you quickly, efficiently, and comfortably to any destination in Thassos you desire. Our business, "TAXI No 4 THASSOS", located in Thassos, specifically in the areas of Limenaria and Potos, has been operating for several years in the field of taxi transportation, always valuing professional and high-quality passenger transportation services. Our taxis are well-maintained and equipped with the latest technology to provide you with a pleasant and hassle-free transfer throughout Thassos. Our drivers are ready to take any route you indicate.</p>
+</div>
+<div class="col-md-5">
+<img src="https://reseller-content.4ty.gr/site2/chris-ftp/taxithassos/taxisrvice25.jpg" alt="Taxi" class="taxi-image" draggable="false">
+</div>
+</div>
+<hr>
+<div class="contact-section">
+<img src="https://reseller-content.4ty.gr/site2/chris-ftp/taxithassos/taxisrvice7.jpg" alt="24/7 Service" class="contact-icon" draggable="false">
+<p class="availability">We are available 24/7</p>
+<p class="phone-numbers">Phone: +306945027609, +306972605601</p>
+</div>
+<hr>
+<div class="services-section">
+<div class="service-column">
+<h3 class="service-title">WE PROVIDE:</h3>
+<ul class="service-list">
+<li>Tourist transfers</li>
+<li>Student transfers</li>
+<li>Transfers for people with disabilities</li>
+<li>Transfers for the elderly</li>
+<li>Medical patient transfers</li>
+<li>Pet transportation</li>
+<li>Transport of unaccompanied parcels</li>
+</ul>
+</div>
+<div class="service-column">
+<h3 class="service-title">WE TRANSPORT YOU TO:</h3>
+<ul class="service-list">
+<li>Harbors</li>
+<li>Bus stations</li>
+<li>Hotels</li>
+<li>Restaurants</li>
+<li>Tourist attractions</li>
+<li>Island tours</li>
+<li>Night outings</li>
+</ul>
+</div>
+<div class="service-column">
+<p class="day-trips">We also organize day trips so you don't miss any of the natural beauties of our region. Just tell us the time you want to spend and your interests, and simply enjoy the journey. Wherever you are, wherever you want to go, just contact us at +306997291088, +306972605601, or +306945406006, and we will be right there to serve you.</p>
+</div>
+</div>
+<hr>
+<p class="testimonial">Throughout these years, we have demonstrated high professionalism, particularly ensuring the safe and comfortable transportation of every passenger. Our experience in the field, combined with our affordable prices and excellent customer service, have established us as the ideal choice for your transportation needs in Thassos.</p>
+</article>
 </main>
-<style>
-  .contact-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .contact-icon {
-    max-width: 100%;
-  }
-</style>
-<style>
-  /* Reset some default styles */
-body, h1, h2, h3, h4, p {
-  margin: 0;
-  padding: 0;
-}
-
-/* Set up fonts and colors */
-
-
-/* Container */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Header */
-.section-title {
-  font-size: 24px;
-  color: #fac93a;
-}
-
-.taxi-title {
-  font-size: 36px;
-  color: #666666;
-  margin-top: 10px;
-}
-
-.taxi-image {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  margin-top: 20px;
-}
-
-/* Contact section */
-.contact-section {
-  text-align: center;
-  padding: 20px 0;
-}
-
-.contact-icon {
-  width: 90px;
-  height: 90px;
-}
-
-.availability {
-  font-size: 26px;
-  color: #666666;
-  margin-top: 10px;
-}
-
-.phone-numbers {
-  font-size: 18px;
-  color: #666666;
-  margin-top: 10px;
-}
-
-/* Services section */
-.services-section {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 20px 0;
-}
-
-.service-column {
-  flex: 1;
-  padding: 10px;
-}
-
-.service-title {
-  font-size: 24px;
-  color: #666666;
-  margin-bottom: 10px;
-}
-
-.service-list {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-.day-trips {
-  font-size: 18px;
-  color: #666666;
-}
-
-/* Testimonial */
-.testimonial {
-  text-align: center;
-  font-size: 18px;
-  color: #666666;
-  padding: 20px 0;
-}
-
-/* Responsive styles */
-@media (max-width: 767px) {
-  .service-column {
-    flex-basis: 100%;
-  }
-}
-
-</style>
-        
-        
-      
-
-               <!--end header-->
-
-          
-               <!--end home-->
-               <style>
-                /* Base styles for the footer */
-                .footer-section {
-                  padding: 20px 0;
-                  text-align: center;
-                }
-            
-                .fs-about {
-                  margin-bottom: 20px;
-                }
-            
-                .fa-logo img {
-                  max-width: 100%;
-                  height: auto;
-                }
-            
-                .fs-widget {
-                  margin-bottom: 20px;
-                }
-            
-                .fs-widget ul {
-                  list-style: none;
-                  padding: 0;
-                  margin: 0;
-                }
-            
-                .fs-widget ul li {
-                  margin-bottom: 8px;
-                }
-            
-                .leave-comment {
-                  margin-top: 20px;
-                }
-            
-                #emailInput {
-                  width: 100%;
-                  margin-bottom: 10px;
-                  padding: 8px;
-                  border: 1px solid #ccc;
-                  border-radius: 4px;
-                }
-            
-                #SubscribeEmail {
-                  background-color: #4CAF50;
-                  color: white;
-                  border: none;
-                  padding: 8px 16px;
-                  border-radius: 4px;
-                  cursor: pointer;
-                }
-            
-                /* Mobile Responsive Styles */
-                @media (max-width: 767px) {
-                  .row {
-                    flex-direction: column;
-                  }
-            
-                  .col-lg-4, .col-md-3, .col-sm-6 {
-                    width: 100%;
-                    margin-bottom: 20px;
-                  }
-            
-                  .col-lg-4 {
-                    text-align: center;
-                  }
-                }
-            
-                @media (max-width: 480px) {
-                  .fa-logo {
-                    display: flex;
-                    justify-content: center;
-                  }
-            
-                  .fa-logo img {
-                    max-width: 120px;
-                  }
-                }
-              </style>
+<style>.contact-section{display:flex;flex-direction:column;align-items:center;text-align:center}.contact-icon{max-width:100%}</style>
+<style>body,h1,h2,h3,h4,p{margin:0;padding:0}.container{max-width:1200px;margin:0 auto;padding:20px}.section-title{font-size:24px;color:#fac93a}.taxi-title{font-size:36px;color:#666;margin-top:10px}.taxi-image{width:100%;max-width:400px;height:auto;margin-top:20px}.contact-section{text-align:center;padding:20px 0}.contact-icon{width:90px;height:90px}.availability{font-size:26px;color:#666;margin-top:10px}.phone-numbers{font-size:18px;color:#666;margin-top:10px}.services-section{display:flex;justify-content:space-between;flex-wrap:wrap;padding:20px 0}.service-column{flex:1;padding:10px}.service-title{font-size:24px;color:#666;margin-bottom:10px}.service-list{list-style-type:disc;padding-left:20px}.day-trips{font-size:18px;color:#666}.testimonial{text-align:center;font-size:18px;color:#666;padding:20px 0}@media(max-width:767px){.service-column{flex-basis:100%}}</style>
+<style>.footer-section{padding:20px 0;text-align:center}.fs-about{margin-bottom:20px}.fa-logo img{max-width:100%;height:auto}.fs-widget{margin-bottom:20px}.fs-widget ul{list-style:none;padding:0;margin:0}.fs-widget ul li{margin-bottom:8px}.leave-comment{margin-top:20px}#emailInput{width:100%;margin-bottom:10px;padding:8px;border:1px solid #ccc;border-radius:4px}#SubscribeEmail{background-color:#4caf50;color:white;border:0;padding:8px 16px;border-radius:4px;cursor:pointer}@media(max-width:767px){.row{flex-direction:column}.col-lg-4,.col-md-3,.col-sm-6{width:100%;margin-bottom:20px}.col-lg-4{text-align:center}}@media(max-width:480px){.fa-logo{display:flex;justify-content:center}.fa-logo img{max-width:120px}}</style>
 <section class="footer-section">
-  <div class="container">
-      <div class="row">
-        
-          <div class="col-lg-2 col-md-3 col-sm-6">
-              <div class="fs-widget">
-                  <h4  style="font-size: 17px;">USEFUL LINKS</h4>
-                  <ul>
-                      <li><a href="home.html">HOME</a></li>
-                      <li><a href="aboutus.html">ABOUT US</a></li>
-                      <li><a href="services.html">SERVICES</a></li>
-                      <li><a href="gallery.html">GALLERY</a></li>
-                      
-              </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="fs-about">
-                <div class="fa-logo">
-             <h3>TAXI LORENTZOS</h3>
-
-                </div>
-                <p style="font-size: 12px;">
-                  <strong>All these years we have demonstrated a high level of professionalism, taking special care of the safe and comfortable movement of every passenger. Our experience in the field, combined with our economical prices and the right personal service, have established us as the ideal choice for your move to Thassos.
-                  </strong>
-                </p>
-          
-            </div>
-        </div>
-
-
-          
-          <div class="col-lg-2 col-md-3 col-sm-6">
-              <div class="fs-widget">
-                  <h4  style="font-size: 18px;">Support</h4>
-                  <ul>
-                      <li><a href="contactus.html">Contact</a></li>
-                      <a href="tel:+30 6972605601">call : +30 6972605601</a>
-                      <br>
-                      <a href="tel:+30 6945027609">call : +30 6945027609</a>
-                  </ul>
-              </div>
-          </div>
-          
-          
-      </div>
-
-      <style></style>
-      <div class="row">
-          <div class="col-lg-12 text-center">
-              <div class="copyright-text">
-                <p>&nbsp;</p>
-        
-                <hr />
-                <p>&nbsp;</p>
-                <p>
-                <strong> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</strong> 
-                  <span class="space-between-sentences"></span>
-                </p>
-                      
-              </div>
-          </div>
-      </div>
-  </div>
+<div class="container">
+<div class="row">
+<div class="col-lg-2 col-md-3 col-sm-6">
+<div class="fs-widget">
+<h4 style="font-size:17px">USEFUL LINKS</h4>
+<ul>
+<li><a href="home.html">HOME</a></li>
+<li><a href="aboutus.html">ABOUT US</a></li>
+<li><a href="services.html">SERVICES</a></li>
+<li><a href="gallery.html">GALLERY</a></li>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="fs-about">
+<div class="fa-logo">
+<h3>TAXI LORENTZOS</h3>
+</div>
+<p style="font-size:12px">
+<strong>All these years we have demonstrated a high level of professionalism, taking special care of the safe and comfortable movement of every passenger. Our experience in the field, combined with our economical prices and the right personal service, have established us as the ideal choice for your move to Thassos.
+</strong>
+</p>
+</div>
+</div>
+<div class="col-lg-2 col-md-3 col-sm-6">
+<div class="fs-widget">
+<h4 style="font-size:18px">Support</h4>
+<ul>
+<li><a href="contactus.html">Contact</a></li>
+<a href="tel:+30 6972605601">call : +30 6972605601</a>
+<br>
+<a href="tel:+30 6945027609">call : +30 6945027609</a>
+</ul>
+</div>
+</div>
+</div>
+<style></style>
+<div class="row">
+<div class="col-lg-12 text-center">
+<div class="copyright-text">
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<p>
+<strong> Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</strong>
+<span class="space-between-sentences"></span>
+</p>
+</div>
+</div>
+</div>
+</div>
 </section>
-    </body>
+</body>
 </html>
-
 <script src="js/script.js"></script>
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
