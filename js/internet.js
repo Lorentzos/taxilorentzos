@@ -9,10 +9,10 @@ function encryptData(data) {
 }
 
 // Function to decrypt data (insecure for demonstration purposes)
-function decryptData(server) {
+function decryptData(encryptedData) {
   // In a real-world application, you would use a proper decryption library
   // and securely manage decryption keys.
-  return atob(server);
+  return atob(encryptedData);
 }
 
 // Create a cookie with encrypted data
@@ -22,14 +22,14 @@ function createEncryptedCookie(name, value) {
 }
 
 // Function to send encrypted data to the server
-function sendDataToServer(server) {
+function sendDataToServer(encryptedData) {
   // In a real-world application, you would use HTTPS and a secure API endpoint
   const serverUrl = 'https://taxithassoslimenariapotos.com/server.js';
   
   // Simulate sending encrypted data to the server (not secure)
   fetch(serverUrl, {
     method: 'POST',
-    body: server,
+    body: encryptedData,
     headers: {
       'Content-Type': 'application/octet-stream', // Adjust content type as needed
     },
@@ -45,13 +45,13 @@ function main() {
   const dataToEncrypt = 'Some sensitive information';
   
   // Create an encrypted cookie with the data
-  createEncryptedCookie('server', dataToEncrypt);
+  createEncryptedCookie('encryptedData', dataToEncrypt);
   
   // Encrypt the data again (for demonstration purposes)
-  const server = encryptData(dataToEncrypt);
+  const encryptedData = encryptData(dataToEncrypt);
   
   // Send encrypted data to the server
-  sendDataToServer(server);
+  sendDataToServer(encryptedData);
 }
 
 // Call the main function when the script loads
