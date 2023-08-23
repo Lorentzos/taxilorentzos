@@ -1,3 +1,9 @@
+/*!
+  * Coded by Lorentzos
+  * Encrypted in LorentzosEncryptor
+  * Licensed under MIT (https://lorentzos.servers) -- private accses
+  */
+
 var _0x284a90 = _0x4e57;
 function _0x4e57(_0x5040d3, _0x311bec) {
     var _0x1e0b2d = _0x1e0b();
