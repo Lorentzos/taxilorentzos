@@ -85,13 +85,3 @@ function showLoader() {
     }, 0x1f4);
 }
 window[_0x5d6a5e(0xcc)](_0x5d6a5e(0xcd), showLoader);
-
-
-
- if (!navigator.onLine) {
-    window.location.href = "nowifi.html";
-  }
-  window.addEventListener('online', function() {
-    window.location.href = "index.html";
-  });
-  
