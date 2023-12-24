@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://taxithassoslimenariapotos.com/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://taxithassoslimenariapotos.com/</loc>
+        <lastmod>2023-12-16T09:23:22+00:00</lastmod>
+        <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/carimage.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/download.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoTransparent.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+         <loc>https://taxithassoslimenariapotos.com/home.html</loc>
+          <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://taxithassoslimenariapotos.com/aboutus.html</loc>
+         <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://taxithassoslimenariapotos.com/services.html</loc>
+        <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+    </url>
+      <loc>https://taxithassoslimenariapotos.com/location.html</loc>
+        <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+    </url>
+        <url>
+          <loc>https://taxithassoslimenariapotos.com/gallery.html</loc>
+       <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+    </url>
+            <url>
+            <loc>https://taxithassoslimenariapotos.com/contactus.html</loc>
+         <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+    </url>
+</urlset>
