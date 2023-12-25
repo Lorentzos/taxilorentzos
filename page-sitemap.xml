@@ -18,24 +18,87 @@
         <loc>https://taxithassoslimenariapotos.com/home.html</loc>
         <lastmod>2023-12-23T22:30:00+00:00</lastmod>
     </url>
+     <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/carimage.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/download.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoTransparent.png</image:loc>
+        </image:image>
     <url>
         <loc>https://taxithassoslimenariapotos.com/aboutus.html</loc>
         <lastmod>2023-12-23T22:30:00+00:00</lastmod>
     </url>
+     <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/image1.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/image2.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoOriginal.png</image:loc>
+        </image:image>
+      <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoTransparent.png</image:loc>
+        </image:image>
     <url>
         <loc>https://taxithassoslimenariapotos.com/services.html</loc>
         <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+        <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoOriginal.png</image:loc>
+        </image:image>
+      <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoTransparent.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://taxithassoslimenariapotos.com/location.html</loc>
         <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+           <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoOriginal.png</image:loc>
+        </image:image>
+      <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoTransparent.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://taxithassoslimenariapotos.com/gallery.html</loc>
         <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+           <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoOriginal.png</image:loc>
+        </image:image>
+      <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoTransparent.png</image:loc>
+        </image:image>
+              <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/image1.png</image:loc>
+        </image:image>
+              <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/image2.png</image:loc>
+        </image:image>
+              <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/image3.png</image:loc>
+        </image:image>
+              <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/image4.png</image:loc>
+        </image:image>
+              <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/image5.png</image:loc>
+        </image:image>
+                     <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/image6.png</image:loc>
+        </image:image>
     </url>
     <url>
         <loc>https://taxithassoslimenariapotos.com/contactus.html</loc>
         <lastmod>2023-12-23T22:30:00+00:00</lastmod>
+           <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoOriginal.png</image:loc>
+        </image:image>
+      <image:image>
+            <image:loc>https://taxithassoslimenariapotos.com/img/logoTransparent.png</image:loc>
+        </image:image>
     </url>
 </urlset>
